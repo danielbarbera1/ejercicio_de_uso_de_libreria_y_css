@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	/* Restablecer margen */
+	padding: 0;
+	/* Restablecer relleno */
+	box-sizing: border-box;
+	/* Asegura que el ancho y alto de los elementos incluyan el padding y el borde */
+}
+
+nav.principal {
+	width: 100%;
+	/* Ancho completo del navegador */
+	height: 90px;
+	/* Altura del navegador */
+	background-color: black;
+	/* Color de fondo del navegador */
+	color: white;
+	/* Color del texto del navegador */
+	text-align: center;
+	/* Alineación del texto en el centro */
+	padding: 20px;
+	/* Relleno del navegador */
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	align-items: center;
+	/* Alinear los elementos del navegador verticalmente al centro */
+
+}
+
+img {
+
+	width: 90px;
+	/* Ancho de la imagen del logo */
+
+}
+
+nav.principal ul {
+	display: flex;
+	/* Utilizar flexbox para el diseño de la lista */
+	gap: 20px;
+	/* Espacio entre los elementos de la lista */
+	list-style: none;
+	/* Eliminar viñetas de la lista */
+}
+
+nav.principal ul li a {
+	color: white;
+	/* Color del texto de los enlaces */
+	text-decoration: none;
+	/* Eliminar subrayado de los enlaces */
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+nav.segundaria {
+	width: 10%;
+	/*ancho completo del navegador*/
+	height: 690px;
+	/*altura del navegador*/
+	background-color: black;
+	/*color de fondo del navegador*/
+	color: white;
+	/*color del texto del navegador*/
+	text-align: center;
+	/* Alineación del texto en el centro */
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: column;
+	/* Dirección de la columna */
+	padding: 10px;
+	/* Relleno del navegador */
+	align-items: center;
+	/* Alinear los elementos verticalmente al centro */
+	gap: 20px;
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	
+
+}
+
+nav.segundaria ul li a {
+	color: white;
+	/* Color del texto de los enlaces */
+	text-decoration: none;
+	/* Eliminar subrayado de los enlaces */
+
+}
+
+nav.segundaria ul {
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: column;
+	/* Dirección de la columna */
+	gap: 25px;
+	/* Espacio entre los elementos de la lista */
+	list-style: none;
+	/* Eliminar viñetas de la lista */
+	align-items: flex-start;
+	/* Alinear los elementos del navegador verticalmente al inicio */
+}
+
+nav.segundaria ul li {
+	display: flex;
+	/*utiliza flexbox para el diseño*/
+	justify-content: space-between;
+	/*espacio entre los elementos del navegador*/
+	align-items: flex-start;
+	/* Alinear los elementos del navegador verticalmente al inicio */
+	width: 100%;
+	/* Ancho completo del elemento de la lista */
+	height: 50px;
+	/* Altura del elemento de la lista */
+
+}
+
+nav.segundaria i{
+	font-size: 30px;
+	/* Tamaño de la fuente de los iconos */
+	color: white;
+	/* Color del texto de los iconos */
+	display: flex;
+	/*utiliza el flexbox para el diseño*/
+}
+
