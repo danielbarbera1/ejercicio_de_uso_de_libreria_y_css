@@ -129,7 +129,7 @@ nav.segundaria i {
 nav.tercearia {
 	width: 90%;
 	/*ancho completo del navegador*/
-	height: 150px;
+	height: auto;
 	/*altura del navegador*/
 	background-color: rgb(195, 193, 193);
 	/*color de fondo del navegador*/
@@ -162,7 +162,7 @@ nav.tercearia article section {
 	/* Dirección de la fila */
 	align-items: center;
 	/* Alinear los elementos del navegador verticalmente al centro */
-	padding: 10px 20px;
+	padding: 10px 60px;
 	/* Relleno de la sección */
 	border-radius: 12px;
 	/* Bordes redondeados de la sección */
@@ -172,10 +172,12 @@ nav.tercearia article section {
 	/* Alinear el texto en el centro */
 	height: auto;
 	/* Altura automática de la sección */
-	justify-content: space-between;
-	/* Espacio entre los elementos de la sección */
 	gap: 10px;
 	/* Espacio entre los elementos de la sección */
+	width: 20%;
+	/* Ancho de la sección */
+	
+
 }
 
 main {
@@ -208,17 +210,18 @@ nav.tercearia article section i {
 	/* Alinear los elementos del navegador verticalmente al centro */
 }
 
-nav.tercearia article section .text-content {
+nav.tercearia article section .texto-contenedor {
 	display: flex;
 	/* Utilizar flexbox para el diseño */
 	flex-direction: column;
 	/* Dirección de la columna */
-	align-items: flex-start;
+	align-items: center;
 	/* Alinear los elementos del navegador verticalmente al inicio */
-	justify-content: center;
-	/* Alinear los elementos del navegador verticalmente al centro */
-	gap: 5px;
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	gap: 5px 20px;
 	/* Espacio entre los elementos de la sección */
+
 }
 
 nav.tercearia article section h4,
@@ -238,7 +241,7 @@ nav.tercearia article section h1 {
 	/* Color del texto */
 }
 
-nav.tercearia article section h6 {
+nav.tercearia article section h3 {
 	font-size: 14px;
 	/* Tamaño de la fuente */
 	color: rgb(23, 179, 105);
