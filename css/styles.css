@@ -124,3 +124,31 @@ nav.segundaria i{
 	/*utiliza el flexbox para el diseño*/
 }
 
+/*-------------------------------------------------------------------------------------*/
+
+nav.tercearia{
+	width: 90%;
+	/*ancho completo del navegador*/
+	height: 90px;
+	/*altura del navegador*/
+	background-color: rgb(195, 193, 193);
+	/*color de fondo del navegador*/
+	color:black;
+	/* Color del texto del navegador */
+	text-align: center;
+	/* Alineación del texto en el centro */
+	padding: 20px;
+	/* Relleno del navegador */
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	
+
+}
+nav.article{
+	display: flex;
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	padding: 20px;
+}
