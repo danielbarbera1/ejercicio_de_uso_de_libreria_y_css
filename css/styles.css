@@ -129,12 +129,10 @@ nav.segundaria i {
 nav.tercearia {
 	width: 90%;
 	/*ancho completo del navegador*/
-	height: 150px;
+	height: 200px;
 	/*altura del navegador*/
 	background-color: rgb(195, 193, 193);
 	/*color de fondo del navegador*/
-	color: black;
-	/* Color del texto del navegador */
 	text-align: center;
 	/* Alineación del texto en el centro */
 	padding: 10px;
@@ -146,29 +144,33 @@ nav.tercearia article {
 	display: flex;
 	justify-content: space-between;
 	/* Espacio entre los elementos del navegador */
-	align-items: center;
-	/* Alinear los elementos del navegador verticalmente al centro */
 	border-radius: 20px;
 	/* Bordes redondeados del navegador */
 	flex-direction: row-reverse;
 	/* Dirección de la fila inversa */
 	flex-wrap: nowrap;
 	/* No permitir que los elementos se envuelvan */
+	padding: 20px;
+	align-content: center;
 }
 
 nav.tercearia article section {
 	display: flex;
 	/* Utilizar flexbox para el diseño */
-	flex-direction: row;
-	/* Dirección de la fila */
-	gap: 25px;
-	/* Espacio entre los elementos de la sección */
+	flex-direction: column;
+	/* Dirección de la columna */
 	padding: 20px;
 	/* Relleno de la sección */
 	border-radius: 20px;
 	/* Bordes redondeados de la sección */
 	background-color: rgb(255, 255, 255);
 	/* Color de fondo de la sección */
+	text-align: center;
+	/* Alinear el texto en el centro */
+	height: 150px;
+	/* Altura de la sección */
+	justify-content: space-between;
+	/* Espacio entre los elementos de la sección */
 }
 
 main {
@@ -176,12 +178,71 @@ main {
 	/* Utilizar flexbox para el diseño */
 	flex-direction: row;
 	/* Dirección de la fila */
-	
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+}
 
-nav.article section h1 {}
+nav.tercearia article section i {
+	font-size: 30px;
+	/* Tamaño de la fuente de los iconos */
+	color: rgb(255, 37, 37);
+	/* Color del texto de los iconos */
+	background-color: rgb(178, 178, 178);
+	/* Color de fondo de los iconos */
+	border-radius: 30px;
+	/* Bordes redondeados de los iconos */
+	padding: 10px;
+	/* Relleno de los iconos */
+	width: 50px;
+	/* Ancho del fondo de los iconos */
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: column;
+	/* Dirección de la columna */
+	justify-content: center;
+	/* Alinear los elementos del navegador verticalmente al centro */
 
-nav.article section h4 {}
+}
 
-nav.article section h6 {}
+nav.tercearia article section h4 {
+	font-size: 15px;
+	/* Tamaño de la fuente del subtítulo */
+	color: rgb(252, 76, 76);
+	/* Color del texto del subtítulo */
+	text-align: center;
+	/* Alinear el texto en el centro */
+}
 
-section img {}
+nav.tercearia article section h1 {
+	font-size: 30px;
+	/* Tamaño de la fuente del título */
+	color: black;
+	/* Color del texto del título */
+	text-align: center;
+	/* Alinear el texto en el centro */
+}
+
+nav.tercearia article section h5 {
+	font-size: 25px;
+	/* Tamaño de la fuente del subtítulo */
+	color: rgb(252, 76, 76);
+	/* Color del texto del subtítulo */
+	text-align: center;
+	/* Alinear el texto en el centro */
+}
+
+nav.tercearia article section h6 {
+	font-size: 10px;
+	/* Tamaño de la fuente del subtítulo */
+	color: rgb(252, 76, 76);
+	/* Color del texto del subtítulo */
+	text-align: center;
+	/* Alinear el texto en el centro */
+}
+
+nav.tercearia article section img {
+	width: 50px;
+	/* Ancho de la imagen */
+	height: 50px;
+	/* Altura de la imagen */
+}
