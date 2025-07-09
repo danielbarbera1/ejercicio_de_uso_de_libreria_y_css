@@ -76,7 +76,7 @@ nav.segundaria {
 	gap: 20px;
 	justify-content: space-between;
 	/* Espacio entre los elementos del navegador */
-	
+
 
 }
 
@@ -115,7 +115,7 @@ nav.segundaria ul li {
 
 }
 
-nav.segundaria i{
+nav.segundaria i {
 	font-size: 30px;
 	/* Tamaño de la fuente de los iconos */
 	color: white;
@@ -126,29 +126,68 @@ nav.segundaria i{
 
 /*-------------------------------------------------------------------------------------*/
 
-nav.tercearia{
+nav.tercearia {
 	width: 90%;
 	/*ancho completo del navegador*/
 	height: 90px;
 	/*altura del navegador*/
 	background-color: rgb(195, 193, 193);
 	/*color de fondo del navegador*/
-	color:black;
+	color: black;
 	/* Color del texto del navegador */
 	text-align: center;
 	/* Alineación del texto en el centro */
-	padding: 20px;
+	padding: 10px;
 	/* Relleno del navegador */
 	display: flex;
 	/* Utilizar flexbox para el diseño */
-	justify-content: space-between;
+	justify-content: start;
 	/* Espacio entre los elementos del navegador */
-	
+	align-content: space-between;
+	flex-direction: row;
+
 
 }
-nav.article{
+
+nav.article {
 	display: flex;
 	justify-content: space-between;
 	/* Espacio entre los elementos del navegador */
 	padding: 20px;
+	/* Relleno del navegador */
+	align-items: center;
+	/* Alinear los elementos del navegador verticalmente al centro */
+	border-radius: 20px;
+	/* Bordes redondeados del navegador */
+}
+
+nav.section {
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: row;
+	/* Dirección de la fila */
+	gap: 25px;
+	/* Espacio entre los elementos de la sección */
+	padding: 20px;
+	/* Relleno de la sección */
+	border-radius: 20px;
+	/* Bordes redondeados de la sección */
+	background-color: rgb(255, 255, 255);
+	/* Color de fondo de la sección */
+}
+
+nav.article section h1{
+
+}
+
+nav.article section h4{
+
+}
+
+nav.article section h6{
+
+}
+
+section img{
+	
 }
