@@ -176,7 +176,8 @@ nav.tercearia article section {
 	/* Espacio entre los elementos de la sección */
 	width: 20%;
 	/* Ancho de la sección */
-	
+	box-shadow: 2px 4px 6px #000000;
+	/* Sombra del navegador */
 
 }
 
