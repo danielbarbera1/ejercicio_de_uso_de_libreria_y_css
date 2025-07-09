@@ -127,9 +127,9 @@ nav.segundaria i {
 /*-------------------------------------------------------------------------------------*/
 
 nav.tercearia {
-	width: 100%;
+	width: 90%;
 	/*ancho completo del navegador*/
-	height: 100%;
+	height: 150px;
 	/*altura del navegador*/
 	background-color: rgb(195, 193, 193);
 	/*color de fondo del navegador*/
@@ -151,7 +151,9 @@ nav.tercearia article {
 	border-radius: 20px;
 	/* Bordes redondeados del navegador */
 	flex-direction: row-reverse;
+	/* Dirección de la fila inversa */
 	flex-wrap: nowrap;
+	/* No permitir que los elementos se envuelvan */
 }
 
 nav.tercearia article section {
@@ -169,18 +171,17 @@ nav.tercearia article section {
 	/* Color de fondo de la sección */
 }
 
-nav.article section h1{
+main {
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: row;
+	/* Dirección de la fila */
+	
 
-}
+nav.article section h1 {}
 
-nav.article section h4{
+nav.article section h4 {}
 
-}
+nav.article section h6 {}
 
-nav.article section h6{
-
-}
-
-section img{
-
-}
+section img {}
