@@ -127,9 +127,9 @@ nav.segundaria i {
 /*-------------------------------------------------------------------------------------*/
 
 nav.tercearia {
-	width: 90%;
+	width: 100%;
 	/*ancho completo del navegador*/
-	height: 90px;
+	height: 100%;
 	/*altura del navegador*/
 	background-color: rgb(195, 193, 193);
 	/*color de fondo del navegador*/
@@ -139,29 +139,22 @@ nav.tercearia {
 	/* Alineación del texto en el centro */
 	padding: 10px;
 	/* Relleno del navegador */
-	display: flex;
-	/* Utilizar flexbox para el diseño */
-	justify-content: start;
-	/* Espacio entre los elementos del navegador */
-	align-content: space-between;
-	flex-direction: row;
-
 
 }
 
-nav.article {
+nav.tercearia article {
 	display: flex;
 	justify-content: space-between;
 	/* Espacio entre los elementos del navegador */
-	padding: 20px;
-	/* Relleno del navegador */
 	align-items: center;
 	/* Alinear los elementos del navegador verticalmente al centro */
 	border-radius: 20px;
 	/* Bordes redondeados del navegador */
+	flex-direction: row-reverse;
+	flex-wrap: nowrap;
 }
 
-nav.section {
+nav.tercearia article section {
 	display: flex;
 	/* Utilizar flexbox para el diseño */
 	flex-direction: row;
@@ -189,5 +182,5 @@ nav.article section h6{
 }
 
 section img{
-	
+
 }
