@@ -257,3 +257,9 @@ nav.tercearia article section img {
 }
 
 /*-------------------------------------------------------------------------------------*/
+article.cuartaria {
+	display: flex;
+	width: 90%;
+	overflow-x: auto;
+	/* Permitir desplazamiento horizontal */
+}
