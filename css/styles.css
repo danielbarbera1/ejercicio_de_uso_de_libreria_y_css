@@ -53,6 +53,7 @@ nav.principal ul li a {
 }
 
 /*-------------------------------------------------------------------------------------*/
+/*barra de tipo de iphone y redes sociales*/
 
 nav.segundaria {
 	width: 10%;
@@ -125,6 +126,7 @@ nav.segundaria i {
 }
 
 /*-------------------------------------------------------------------------------------*/
+/* barra de precios del mercado */
 
 nav.tercearia {
 	width: 90%;
@@ -155,7 +157,7 @@ nav.tercearia article {
 	/* Relleno del artículo */
 }
 
-nav.tercearia article section {
+article.precio section {
 	display: flex;
 	/* Utilizar flexbox para el diseño */
 	flex-direction: row;
@@ -178,7 +180,6 @@ nav.tercearia article section {
 	/* Ancho de la sección */
 	box-shadow: 2px 4px 6px #000000;
 	/* Sombra del navegador */
-
 }
 
 main {
@@ -190,7 +191,7 @@ main {
 	/* Espacio entre los elementos del navegador */
 }
 
-nav.tercearia article section i {
+article.precio section i {
 	font-size: 24px;
 	/* Tamaño de la fuente de los iconos */
 	color: rgb(255, 37, 37);
@@ -211,7 +212,7 @@ nav.tercearia article section i {
 	/* Alinear los elementos del navegador verticalmente al centro */
 }
 
-nav.tercearia article section .texto-contenedor {
+article.precio section .texto-contenedor {
 	display: flex;
 	/* Utilizar flexbox para el diseño */
 	flex-direction: column;
@@ -257,9 +258,31 @@ nav.tercearia article section img {
 }
 
 /*-------------------------------------------------------------------------------------*/
+/* bandejas de productos */
+
 article.cuartaria {
-	display: flex;
-	width: 90%;
+	display: flex;/* Utilizar flexbox para el diseño */
+	width: 90%;/* Ancho completo del artículo */
 	overflow-x: auto;
 	/* Permitir desplazamiento horizontal */
+	flex-direction: row;
+	
 }
+
+div.bandeja, section {
+	display: flex;
+	/* Utilizar flexbox para el diseño */
+	flex-direction: row;
+	/* Dirección de la fila */
+	justify-content: space-between;
+	/* Espacio entre los elementos del navegador */
+	align-items: center;
+	/* Alinear los elementos del navegador verticalmente al centro */
+	width: 100%;
+	/* Ancho completo de la bandeja */
+	padding: 20px;
+	/* Relleno de la bandeja */
+}
+
+
+
